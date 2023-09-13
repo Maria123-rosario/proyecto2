@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Accesibilidad Web</title>
+</head>
+<header class="bg-cabecera">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Front-End</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-cabecera">
+                    <!--Parte 1-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="accesibilidad.html"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Accesibilidad Web
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="accesibilidad.html">Accesibilidad Web</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="directrices.html">Directrices de Accesibilidad</a></li>
+                            <li><a class="dropdown-item" href="herramientas.html">Herramientas de Evaluación</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <h2>Las directrices de accesibilidad</h2>
+        <p>
+            Son pautas y recomendaciones diseñadas para garantizar que las tecnologías
+            de la información y la comunicación (TIC), como sitios web, aplicaciones móviles y documentos electrónicos,
+            sean accesibles y utilizables por personas con discapacidades. La accesibilidad web es fundamental para
+            garantizar que todas las personas, independientemente de sus habilidades o discapacidades, puedan acceder y
+            utilizar la información y los servicios en línea de manera efectiva. Aquí hay algunas de las directrices de
+            accesibilidad más conocidas y utilizadas:</p>
+        <p></p>
+        <div class="text-center">
+            <img src="data:image/png;base64,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"
+                alt="" width="50%">
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <h2>Directrices de Accesibilidad para el Contenido Web (WCAG)</h2>
+                    <p>Estas son las directrices de accesibilidad más ampliamente reconocidas y utilizadas en todo el
+                        mundo. WCAG es desarrollado por el World Wide Web Consortium (W3C) y se divide en tres niveles
+                        de conformidad: A, AA y AAA. Proporciona una serie de pautas y criterios para hacer que el
+                        contenido web sea más accesible para personas con discapacidades visuales, auditivas, motoras y
+                        cognitivas. Algunos de los principios clave de WCAG incluyen la percepción, la operabilidad y la
+                        comprensión.</p>
+                </li>
+                <li>
+                    <h2>Directrices de Accesibilidad para Herramientas de Autor (ATAG)</h2>
+                    <p>Estas directrices están destinadas a los desarrolladores de herramientas de autor, como editores
+                        de sitios web y sistemas de gestión de contenido. ATAG proporciona recomendaciones para
+                        garantizar que las herramientas utilizadas para crear contenido web sean accesibles y permitan a
+                        los autores crear contenido accesible.</p>
+                </li>
+                <li>
+                    <h2>Directrices de Accesibilidad para Agentes de Usuario (UAAG)</h2>
+                    <p>UAAG se centra en la accesibilidad de los agentes de usuario, como navegadores web y lectores de
+                        pantalla. Estas directrices proporcionan recomendaciones para garantizar que los agentes de
+                        usuario sean capaces de interpretar y presentar contenido web de manera accesible para las
+                        personas con discapacidades.</p>
+                </li>
+                <li>
+                    <h2>Directrices de Accesibilidad para Contenido Móvil (MWBP)</h2>
+                    <p>Estas directrices están específicamente diseñadas para la accesibilidad en dispositivos móviles.
+                        Se centran en aspectos como el diseño adaptable, el tamaño del texto y la navegación táctil para
+                        garantizar una experiencia accesible en dispositivos móviles.</p>
+                </li>
+                <li>
+                    <h2>Directrices de Accesibilidad para PDF (PDF/UA)</h2>
+                    <p>Estas directrices están destinadas a la accesibilidad de los documentos en formato PDF.
+                        Proporcionan pautas para crear documentos PDF que sean accesibles para personas con
+                        discapacidades, incluidas aquellas que utilizan lectores de pantalla.</p>
+                </li>
+                <li>
+                    <h2>Directrices de Accesibilidad para Tecnologías Emergentes</h2>
+                    <p>A medida que las tecnologías evolucionan, se están desarrollando directrices de accesibilidad
+                        para garantizar que las nuevas tecnologías sean accesibles desde el principio. Esto incluye
+                        tecnologías como la inteligencia artificial y la realidad virtual.</p>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="py-3"></div>
+    <div class="mb-5"></div>
+    <div class="mb-5"></div>
+</body>
+<footer class="text-dark text-center py-3 bg-cabecera">
+    <div class="container">
+        <p>&copy; 2023 Mi Front-End. Todos los derechos reservados.</p>
+    </div>
+</footer>
+</html>
